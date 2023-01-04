@@ -2,31 +2,28 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Harsh Goel
     - name: Date of Birth
-      value: 14th March 1879
+      value: 7th May 1999
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MS Robotics
+      institution: University of Pennsylvania,Philadelphia, United States
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+          - Thesis -  Learning goal-conditioned control policies for waypoint reaching in aerial vehicles and aerial manipulators (in progress)
+          - Coursework - Learning in Robotics, Advanced Computer Vision, Machine Learning Theory, Advanced Robotics, Model Predictive Control, and F1-Tenth Autonomous Racing
+          - Advisors -  Dr. Vijay Kumar and Dr. Pratik Chaudhari
+    - title: B.Eng, Mechanical Engineering + Minor in Computer Science
+      institution: National University of Singapore, Singapore,  Singapore
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Advisor -  Dr Guillaume Sartoretti and Dr. Ang Marcelo H Jr.
+        - Coursework - Artificial Intelligence, Machine Vision, Advanced Robotics, Neural Networks, and Linear Systems Theory
 
 - title: Experience
   type: time_table

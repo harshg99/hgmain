@@ -8,15 +8,6 @@ middle_name:
 last_name: Goel
 email: hgoel1000@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-I am a robotics and Machine Learning enthusiast who is passionate about endowing robots and infrastructure with human like intelligence to plan and cooperate to complete tasks collectively.
-
-I endeavor to answer three fundamental questions -
-1) How should robots improve individual capability to complete simple tasks such as moving or picking objects?
-2) How can we leverage a team of robots or infrastructure to collaboratively achieve a common team objective for instance collaborative assembly or traffic control?
-3) What individual goals/skills are necessary to afford such a team to reliably complete tasks that need inter agent collaboration?
-
-I draw inspiration from machine learning (with a special interest in reinforcement learning) and control theory to drive my research endeavors. 
-If I am not in the lab, you would find me either playing tennis or listening to AI podcasts.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -154,9 +145,9 @@ disqus_shortname: hgmain-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url:
+#external_sources:
+#  - name: medium.com
+#    rss_url:
 
 # -----------------------------------------------------------------------------
 # Collections

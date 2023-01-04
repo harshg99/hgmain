@@ -1,12 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - harshg99
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - harshg99/informative_path_planning_quads
+  - harshg99/safe_exploration_av
+  - harshg99/explaining_ram
+  - harshg99/MARL_persistentsearch
+  - harshg99/multi_agent_foraging
+  - harshg99/ukf_slam
+  - harshg99/she_walks
+  - harshg99/BicycleGANS
