@@ -28,67 +28,86 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Kumar Lab at GRASP, University of Pennsylvania, Philadelphia, US
+      year: 2022-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Project 1
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+          - Developed a learning-based motion planning method with motion primitives to localize targets via quadrotors.
+          - Trained and benchmarked light-weight transformers and RESNET networks with RL algorithms such as PPO, SAC and A3C and benchmarked performance with greedy heuristics, CMA-ES, MIPP and MCTS
+          - Demonstrated learnt planner on Kumar Autonomy Stack with Gazebo Simulations
+        - title: Project 2
+          contents:
+          - Adapting multi-agent reinforcement learning for cooperative and persistent target search and tracking
+        - title: Project 3
+          contents:
+          - Researching methods for learning goal conditioned control policies for referenctracking and waypoint reaching for aerial vehicles and aerial manipulators that can be leveraged for general aerial vehicle tasks
+    - title: Teaching Assistant
+      institution: University of Pennsylvania, Philadelphia, Pennsylvania, US
+      year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Teaching Assistant for CIS 521 - Introduction to AI, CIS 522- Introduction to Deep Learning, ESE 546 - Principles of Deep Learing and CIS 519 - Machine Learning at UPenn.
+        - Responsible for conducting weekly office hours and recitations, grading homework and content modification.
+    - title: Research Engineer
+      institution: National University of Singapore, Singapore
       description:
+        - Introduced adaptions to a multi-agent RL algorithm COMA for fully decentralized and stable cooperation learning in large scale traffic systems
+        - Demonstrated that this led to performance improvements of over 20% in terms of traffic throughput in large scale urban networks comprising over 200 traffic signals
+        - Developed Graph Neural Networks and attention-based models for cooperative decision-making in traffic signal control
+      year: 2020 - 2021
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Robotics Software Developer
+      institution: Movel AI, Singapore
+      description:
+        - Adapted RRT based motion planning algorithms for site inspection with MovelAI’s software stack on ROS
+        - Developed UI on node.js with real time mapping and visualisation of faults during robot operation
+      year: 2020
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Undergraduate Researcher
+      institution: National University of Singapore, Singapore
+      year: 2019 - 2020
+      description:
+        - Researched evolutionary optimization approaches for information gathering for mapping with individual robots
+        - Developed multi-agent simulation environment in Gazebo to benchmark multi-agent mapping algorithms
+
+    - title: Research Development Engineer
+      institution: Thales Research and Technology, Singapore
+      year: 2019
+      description:
+        - Investigated and formulated optimal control algorithms for coverage control via multiple satellites
+        - Tested robustness of control algorithms to state estimation and sensor fusion via Kalman Filters (UKF’S and EKF’s)
+        - Optimised and tested control algorithms for deployment on real satellites in Low Earth Orbit on Thales satellite simulator
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2019
+      items:
+        - Dean's List
+    - year: 2019
+      items:
+        - IEEE NUS Hackathon Winner
+    - year: 2018
+      items:
+        - NUS N-House Ptich Night Winner
+    - year: 2017
+      items:
+        - Dean's List
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Multi Agent Systems
       items:
-        - Description 1.
-        - Description 2.
+        - Distributed Decision Making
+        - Multi-Agent Learning
+    - title: Reinforcement Learning
+      items:
+        - Safe Exploration
+        - Goal Conditioned RL
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Keyboard, Hiking, Gaming, Anime
