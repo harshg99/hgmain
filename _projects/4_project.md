@@ -13,3 +13,6 @@ category: Work
     </div>
 </div>
 
+Can't divulge too many details due to an NDA. This was an engineering project where the primary objective was to intercept fast moving objects with a robotic arm.
+I built a perception core, trajectory prediction core and a control core for a robotic arm to intercept a moving object upto 10 m/s in real time.
+
