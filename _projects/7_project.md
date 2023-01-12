@@ -3,13 +3,14 @@ layout: page
 title: Safe Exploration
 description: Safe exploration while learning control policies for an autonomous vehicle with Reinforcement Learning
 importance: 1
+img: assets/img/safe_explor_av/highway.gif
 category: Classes
 ---
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/quad_control_gcrl/2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/safe_explor_av/highway.gif" title="Image of Highway" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
