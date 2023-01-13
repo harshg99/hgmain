@@ -4,69 +4,25 @@ title: Traffic Signal Control
 description: Distributed traffic signal control with multi-agent reinforcement learning
 img: assets/img/tsc/1.png
 importance: 1
-redirect: https://www.marmotlab.org/projects/urban_traffic.html
 category: Research
 ---
 
-
-
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tsc/1.png" title="Multi Agent Tracking" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Autonomous driving is the future, however autonomy will only be beneficial to society if vehicles and infrastructure can coordinate with each other to reduce traffic congestion and
+improve travel times. Intelligent decision making on the infrastructure side (e.g., traffic signals) is of paramount importance to regulate traffic flow. However, centralized control
+of the traffic infrastructure is infeasible, and in large metropolis that can count upwards of thousands of junctions, and decentralization will be necessary.
+
+This research was aimed at intelligent decision making for traffic signal control based on the traffic conditions at a junction (i.e number and speed of incoming vehicles,
+queue lengths,etc,) as well as the conditions of adjacent junctions. We use distributed reinforcement learning approaches to tackle the coordination problem. In particular, how do
+agents learn to coordinate traffic flow with their neighbors such that the ensuing behavior of an agent to cooperate results in citywide traffic flow improvements.
+
+Checkout out our recent full paper accepted to AAMAS 2023 for more details,
+
+

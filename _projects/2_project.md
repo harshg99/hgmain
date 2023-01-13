@@ -15,6 +15,7 @@ category: Research
     </div>
 </div>
 
+
 The problem of multi agent search and tracking encompasses a group of agents (pursuers) tracking a group of moving targets. This is especially useful in many surveillance applications in defence, environmental
 monitoring and search and rescue. Most of these applications are geared towards large scale deployment and as such control policies for these agents must be fully decentralized to ensure scalability to different pursuer team sizes.
 
