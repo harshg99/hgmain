@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-01-06 12:00:00-0500
 inline: true
 ---
 
-A simple inline announcement.
+Paper on Cooperative traffic signal control accepted to AAMAS 2023.
