@@ -23,6 +23,7 @@ This research was aimed at intelligent decision making for traffic signal contro
 queue lengths,etc,) as well as the conditions of adjacent junctions. We use distributed reinforcement learning approaches to tackle the coordination problem. In particular, how do
 agents learn to coordinate traffic flow with their neighbors such that the ensuing behavior of an agent to cooperate results in citywide traffic flow improvements.
 
-Checkout out our recent full paper accepted to AAMAS 2023 for more details,
+Checkout out our recent full paper titled "SocialLight: Distributed Cooperation Learning towards Network-Wide Traffic Signal Control" accepted
+to [AAMAS 2023](https://aamas2023.soton.ac.uk/program/accepted-papers/) for more details.
 
 
