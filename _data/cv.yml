@@ -90,10 +90,14 @@
         - IEEE NUS Hackathon Winner
     - year: 2018
       items:
-        - NUS N-House Ptich Night Winner
+        - NUS N-House Pitch Night Winner
     - year: 2017
       items:
         - Dean's List
+    - year: 2016
+      items:
+        - Rank 104 in JEE Main in IIT
+        - Ranl 1387 in JEE Advanced in IIT
 
 - title: Academic Interests
   type: nested_list
