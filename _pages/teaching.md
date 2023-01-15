@@ -9,7 +9,7 @@ horizontal: False
 nav_order: 5
 ---
 <!-- pages/teaching.md -->
-<div class="teaching">
+<div class="projects">
 {%- if page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
