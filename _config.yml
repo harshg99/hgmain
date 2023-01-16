@@ -163,10 +163,6 @@ collections:
     output: true
     permalink: /projects/:path/
 
-  research:
-    output: True
-    permalink: /research/:path/
-
   teaching:
     output: True
     permalink: /teaching/:path/
