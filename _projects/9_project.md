@@ -26,7 +26,7 @@ in order for the quadrotor to perform well under the constraints introduced by s
 Checkout the [code](https://github.com/harshg99/control_sensing_estimation_quadrotor) and the [report](/hgmain/assets/pdf/MEAM620_project3.pdf).
 Checkout the video to see our quadrotor in action.
 
-<iframe src="https://www.youtube.com/watch?v=j0pmaxFGDfY"
+<iframe src="https://www.youtube.com/embed/j0pmaxFGDfY"
         width = "640"
         height = "480"
         frameborder="1"

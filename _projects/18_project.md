@@ -31,7 +31,7 @@ resulting in improved productivity and quality in manufacturing environments.
 
 Check out the video at 
 
-<iframe src="https://www.youtube.com/watch?v=efLT0cvJ2QY"
+<iframe src="https://www.youtube.com/embed/efLT0cvJ2QY"
         width = "640"
         height = "480"
         frameborder="1"

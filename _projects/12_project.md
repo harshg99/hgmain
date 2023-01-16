@@ -19,7 +19,7 @@ the [report](/hgmain/assets/pdf/370_final_report.pdf).
 
 The project video can be found here:
 
-<iframe src="https://www.youtube.com/watch?v=47auJwJx4gk"
+<iframe src="https://www.youtube.com/embed/47auJwJx4gk"
         width = "640"
         height = "480"
         frameborder="1"
