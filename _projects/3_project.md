@@ -25,4 +25,4 @@ However, since the planning phase is open loop and isn't informed of the limitat
 for specific trajectories. This is where goal conditioned reinforcement learning is useful, where a controller is directly synthesized to reach a goal without having to go through
 the trajectory planning phase. This project intends to devise a curriculum to train an RL policy for a quadrotor to reach specified goals in flat space.
 
-Find out the technical details in my [thesis](/hgmain/assets/pdf/penn_thesis.pdf).
+Find out the technical details in my [thesis](hgmain/assets/pdf/penn_thesis.pdf).
