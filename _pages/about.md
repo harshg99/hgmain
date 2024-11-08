@@ -2,24 +2,20 @@
 layout: about
 title: about me
 permalink: /
-subtitle: University of Pennsylvania, MS Robotics
+subtitle: University of Texas Austin, PhD Computer Science and Engineering
 
 profile:
   align: right
-  image: prof_pic.png
+  image: harsh_goel.png
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
 selected_papers: False  # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a robotics and Machine Learning enthusiast who is passionate about endowing robots and infrastructure with human like intelligence to plan and cooperate to complete tasks collectively.
+I am a robotics and Machine Learning enthusiast who is passionate about endowing robots with human like intelligence to plan and cooperate to complete tasks collectively. I was previously advised by Dr Guillaume Sartoretti and Dr. Ang Marcelo at the National University of Singapore, and Dr. Vijay Kumar at the University of Pennsylvania.
 
-I endeavor to answer the following questions through my research-
-1) How can we leverage a team of robots or infrastructure to collaboratively achieve a common team objective for instance collaborative assembly or traffic control?
-2) What individual goals/skills are necessary to afford such a team to reliably complete tasks that need inter agent collaboration?
-
-I draw inspiration from machine learning (with a special interest in reinforcement learning) and control theory to drive my research endeavors.
+I work at the intersection of multi-agent systems, reinforcement learning and foundation models to drive my research endeavors.
 If I am not in the lab, you would find me either playing tennis or listening to AI podcasts or playing my keyboard.
 
 
