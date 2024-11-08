@@ -6,7 +6,7 @@ subtitle: University of Texas Austin, PhD Computer Science and Engineering
 
 profile:
   align: right
-  image: harsh_goel.png
+  image: harsh_goel.jpg
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
