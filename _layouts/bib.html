@@ -36,6 +36,8 @@
         {% endif %}
 
         {%- for author in entry.author_array limit: author_array_limit -%}
+          {%- assign author_position = forloop.index | append: '' -%}
+          {%- assign equal_contribution_positions = entry.equal_contribution | split: ',' -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
           {%- if site.scholar.last_name contains author_last_name -%}
@@ -65,6 +67,9 @@
             {%- else -%}
               {{author.first}} {{author.last}}
             {%- endif -%}
+          {%- endif -%}
+          {%- if equal_contribution_positions contains author_position -%}
+            <sup title="Equal contribution" aria-label="equal contribution" style="color: var(--global-theme-color); font-weight: 700;">*</sup>
           {%- endif -%}
         {%- endfor -%}
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -101,6 +106,9 @@
         {%- endif -%}
 
         </div>
+        {%- if entry.equal_contribution -%}
+          <div class="periodical"><small>* Equal contribution</small></div>
+        {%- endif -%}
 
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
