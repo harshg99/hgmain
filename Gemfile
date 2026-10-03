@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'uri', '0.10.1' if ENV['CI']
 group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
