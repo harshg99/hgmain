@@ -167,8 +167,8 @@ collections:
     output: True
     permalink: /teaching/:path/
 
-news_scrollable: false # show recent news without a short scrolling box
-news_limit: 6 # show the six most recent announcements
+news_scrollable: true # allow scrolling when there are more than three news items
+news_limit: 5 # show the five most recent announcements
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
