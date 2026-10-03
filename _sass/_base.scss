@@ -473,9 +473,24 @@ footer.sticky-bottom {
 
   .project-entry {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.25rem;
     padding: 1rem 0;
     border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .project-main {
+    align-items: flex-start;
+    color: inherit;
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
   }
 
   .project-icon {
@@ -497,10 +512,10 @@ footer.sticky-bottom {
       margin: 0 0 0.25rem;
     }
 
-    p {
-      margin-bottom: 0.35rem;
-    }
+    .project-summary { display: block; }
   }
+
+  .project-links { margin-left: 3.5rem; }
 
   .project-links a {
     display: inline-block;

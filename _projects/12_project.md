@@ -24,5 +24,4 @@ The project video can be found here:
         height = "480"
         frameborder="1"
         allowfullscreen>
-</iframe
-
+</iframe>

@@ -1,101 +1,174 @@
-- year: 2026
-  title: "VSeek: Search for long-video questions"
-  icon: fa-search
-  description: A video agent that searches for evidence and uses temporal-logic rewards to improve long-video question answering.
-  links:
-    - label: Project
-      url: https://utaustin-swarmlab.github.io/VSeek/
-    - label: Paper
-      url: https://arxiv.org/abs/2607.02959
-
-- year: 2026
-  title: CrossView
-  icon: fa-camera
-  description: A benchmark for reasoning across synchronized camera views in driving, surveillance, and robotics.
-  links:
-    - label: Project
-      url: https://utaustin-swarmlab.github.io/CrossView/
-    - label: Paper
-      url: https://arxiv.org/abs/2608.15539
-
-- year: 2026
-  title: NeuS-QA
-  icon: fa-video
-  description: Long-video question answering grounded in temporal logic and neuro-symbolic reasoning.
-  links:
-    - label: Paper
-      url: https://ojs.aaai.org/index.php/AAAI/article/view/37834
-
-- year: 2026
-  title: Bayesian partner modelling
-  icon: fa-users
-  description: An LLM coordination agent that tracks a partner's changing strategy and replans when new evidence calls for it.
-  links:
-    - label: Preprint
-      url: https://arxiv.org/abs/2608.18490
-
+# Projects have their own detail pages. Published papers are listed on the homepage.
+# "Earlier" holds projects without a documented completion year.
 - year: 2025
-  title: "R3DM: Multi-agent role discovery"
-  icon: fa-users
-  description: Learns distinct agent roles by connecting them to predicted future behavior in cooperative tasks.
-  links:
-    - label: Paper
-      url: https://proceedings.mlr.press/v267/goel25a.html
-    - label: Code
-      url: https://github.com/UTAustin-SwarmLab/R3DM
-
-- year: 2025
-  title: Distributed upload and active labeling
-  icon: fa-robot
-  description: Selects useful data to upload and label when robot fleets face bandwidth, storage, and annotation limits.
-  links:
-    - label: Paper
-      url: https://proceedings.mlr.press/v305/akcin25a.html
-
-- year: 2025
-  title: CoordLight
-  icon: fa-traffic-light
-  description: Decentralized coordination for traffic signals across large road networks.
-  links:
-    - label: Paper
-      url: https://marmotlab.org/publications/79-TITS2025-CoordLight.pdf
-    - label: Code
-      url: https://github.com/marmotlab/CoordLight
-
-- year: 2025
-  title: "NeuS-V: Video generation evaluation"
-  icon: fa-film
-  description: Uses formal verification to assess whether generated videos follow a prompt's temporal events.
-  links:
-    - label: Project
-      url: https://utaustin-swarmlab.github.io/NeuS-V/
-    - label: Paper
-      url: https://openaccess.thecvf.com/content/CVPR2025/html/Sharan_Neuro-Symbolic_Evaluation_of_Text-to-Video_Models_using_Formal_Verification_CVPR_2025_paper.html
+  title: Synthetic data curation for foundation models
+  icon: fa-database
+  description: Steered diffusion models to generate image-language and time-series data that reduces uncertainty in downstream predictions.
+  url: /projects/synthetic-data-curation/
+  code: https://github.com/harshg99/GALAD
 
 - year: 2024
-  title: Synthetic data for autonomous driving
-  icon: fa-car
-  description: Investigated latent diffusion data for improving end-to-end driving models.
-  links:
-    - label: Paper
-      url: https://openreview.net/forum?id=yaXYQinjOA
-    - label: Code
-      url: https://github.com/UTAustin-SwarmLab/SynDiff-AD
+  title: Image captioning for robotic localization
+  icon: fa-camera
+  description: Optimized in-context examples with DSPy to improve image captions for text-image robot localization.
+  url: /projects/image-captioning-localization/
+  code: https://github.com/harshg99/dspy-image
+
+- year: 2024
+  title: Language-guided multi-agent reinforcement learning
+  icon: fa-users
+  description: Used language models to guide exploration and improve sample efficiency in multi-agent learning.
+  url: /projects/language-guided-marl/
+  code: https://github.com/UTAustin-SwarmLab/adhoc-teaming-marl-llm
 
 - year: 2023
-  title: SocialLight
-  icon: fa-traffic-light
-  description: Distributed cooperation learning for network-wide traffic signal control.
-  links:
-    - label: Paper
-      url: https://www.southampton.ac.uk/~eg/AAMAS2023/pdfs/p1551.pdf
-    - label: Code
-      url: https://github.com/marmotlab/SocialLight
+  title: Safe imitation learning for F1-Tenth
+  icon: fa-car
+  description: Built visual imitation learning methods with barrier-function safety constraints for autonomous driving in ROS 2.
+  url: /projects/safe-imitation-f1tenth/
+  code: https://github.com/harshg99/RL-CBF-F110th
+
+- year: 2023
+  title: Multi-agent search and tracking
+  icon: fa-search
+  description: Learned decentralized policies for teams of robots to search for and track moving targets.
+  url: /projects/2_project/
+  code: https://github.com/harshg99/Search
+
+- year: 2023
+  title: Goal-conditioned quadrotor control
+  icon: fa-paper-plane
+  description: Studied reinforcement learning policies for waypoint reaching and trajectory tracking with quadrotors.
+  url: /projects/3_project/
+  code: https://github.com/harshg99/AerialSkillLearning
 
 - year: 2022
-  title: Agile active target sensing with a UAV
+  title: Safe exploration for autonomous vehicles
+  icon: fa-shield-alt
+  description: Investigated safe reinforcement learning for vehicle navigation under state and obstacle constraints.
+  url: /projects/7_project/
+
+- year: 2022
+  title: Multi-agent foraging
+  icon: fa-seedling
+  description: Trained cooperative agents to balance resource gathering, survival, and team goals.
+  url: /projects/8_project/
+  code: https://github.com/harshg99/multi_agent_foraging
+
+- year: 2022
+  title: Visual-inertial quadrotor navigation
   icon: fa-paper-plane
-  description: Reinforcement learning for aerial search and target classification with dynamically feasible trajectories.
-  links:
-    - label: Preprint
-      url: https://arxiv.org/abs/2212.08214
+  description: Combined planning, control, and visual-inertial odometry for collision-free quadrotor flight.
+  url: /projects/9_project/
+  code: https://github.com/harshg99/control_sensing_estimation_quadrotor
+
+- year: 2022
+  title: Informative path planning for UAVs
+  icon: fa-map-marked-alt
+  description: Used reinforcement learning to plan aerial target discovery and classification trajectories.
+  url: /projects/14_project/
+  code: https://github.com/harshg99/informative_path_planning_quads
+  published: true
+
+- year: 2021
+  title: Traffic signal control
+  icon: fa-traffic-light
+  description: Developed decentralized multi-agent learning for coordination across urban traffic signals.
+  url: /projects/1_project/
+  code: https://github.com/marmotlab/SocialLight
+  published: true
+
+- year: 2020
+  title: Construction-site robot inspection
+  icon: fa-robot
+  description: Built motion planning and mapping software for robots inspecting construction sites.
+  url: /projects/6_project/
+
+- year: 2020
+  title: NUS Rover
+  icon: fa-robot
+  description: Built mobility, controls, and navigation software for a student rover prototype.
+  url: /projects/22_project/
+
+- year: 2020
+  title: Multi-robot mapping
+  icon: fa-map
+  description: Explored evolutionary and sampling-based planning for robots mapping unknown environments.
+  url: /projects/15_project/
+  code: https://github.com/harshg99/CMAES-Mapper
+
+- year: 2019
+  title: Satellite coverage control
+  icon: fa-satellite
+  description: Developed attitude and orbit control approaches for multi-satellite coverage at Thales.
+  url: /projects/5_project/
+
+- year: 2019
+  title: Gamifying education
+  icon: fa-gamepad
+  description: Hackathon project to make middle-school learning more engaging through game mechanics.
+  url: /projects/21_project/
+
+- year: 2018
+  title: Reactive robot-arm interception
+  icon: fa-robot
+  description: Built real-time perception, prediction, and control for a robotic arm intercepting moving objects.
+  url: /projects/4_project/
+  code: https://github.com/harshg99/reactive_interception_roscore
+
+- year: 2018
+  title: Assembly with a robot arm
+  icon: fa-tools
+  description: Used vision and force-torque feedback to assemble objects despite uncertain alignment.
+  url: /projects/18_project/
+  code: https://github.com/harshg99/object_detection_kinect
+
+- year: 2018
+  title: Robot-arm teleoperation
+  icon: fa-hand-paper
+  description: Connected a haptic device, robotic arm, and soft gripper to collect expert demonstrations.
+  url: /projects/19_project/
+  code: https://github.com/harshg99/denso_haptics_teleoperation
+
+- year: Earlier
+  title: Hexabot design
+  icon: fa-robot
+  description: Designed and controlled a six-legged robot for a university design project.
+  url: /projects/12_project/
+  code: https://github.com/harshg99/she_walks
+
+- year: Earlier
+  title: Recurrent attention models
+  icon: fa-brain
+  description: Explored hidden-state interpretation in recurrent models for classification.
+  url: /projects/10_project/
+
+- year: Earlier
+  title: BicycleGAN image generation
+  icon: fa-image
+  description: Explored multimodal image-to-image generation with BicycleGAN.
+  url: /projects/11_project/
+
+- year: Earlier
+  title: Hanoi puzzle with a robot arm
+  icon: fa-puzzle-piece
+  description: Combined computer vision and UR5 manipulation to solve the Tower of Hanoi puzzle.
+  url: /projects/13_project/
+
+- year: Earlier
+  title: SLAM and unscented Kalman filtering
+  icon: fa-map-pin
+  description: Implemented particle-filter localization and mapping alongside unscented Kalman state estimation.
+  url: /projects/16_project/
+
+- year: Earlier
+  title: Warehouse state estimation
+  icon: fa-warehouse
+  description: Fused odometry and camera observations to detect racks in a warehouse.
+  url: /projects/17_project/
+
+- year: Earlier
+  title: NUSSportsMatch
+  icon: fa-table-tennis
+  description: Student app concept for finding partners for two-player and four-player sports.
+  url: /projects/20_project/

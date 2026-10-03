@@ -23,7 +23,7 @@ The programming of the robot was done on Matlab Simulink using simple Inverse Ki
 The video for teleoperation can be found here
 
 
-<iframe src="https://youtu.be/OW81gdqCgDk"
+<iframe src="https://www.youtube.com/embed/OW81gdqCgDk"
         width = "640"
         height = "480"
         frameborder="1"
